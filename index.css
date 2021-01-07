@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+}
+
+.header {
+  /* position: fixed; */
+  width: 100%;
+  align-items: center;
+  display: flex;
+  /* padding-top: 0.875rem; */
+}
+
+.header logo {
+  flex: 1;
+}
+
+.desktop p {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  margin-left: 20px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 570px;
+}
+
+.header li {
+  padding-left: 1.5rem;
+  height: 50;
+  width: 100;
+  justify-items: right;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+/* Content---------------------- */
+
+.content {
+  padding-top: 100px;
+  height: 500px;
+  background: url(img/mountain.jpg);
+  background-position: center;
+  background-size: cover;
+  /* max-width: 500px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1 {
+  margin: auto;
+  /* color: white; */
+  font-size: 50px;
+  line-height: 1.2;
+  font-family: "Faustina", serif;
+}
+
+.content img {
+  margin-top: 20px;
+}
+
+/* Gallery --------------- */
+
+.container {
+  padding-top: 20px;
+  height: 350px;
+  /* background-color: #ffc75f; */
+}
+
+.container h2 {
+  margin-left: 15px;
+  color: #28cf78;
+  font-family: "Faustina", serif;
+}
+
+.gallery {
+  display: flex;
+  /* color: white; */
+}
+
+.gallery p {
+  font-size: 17px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.gallery div {
+  display: flex;
+  background-size: cover;
+  min-height: 250px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.diet {
+  background-image: url(img/diet.jpg);
+  margin-left: 15px;
+}
+
+.fitness {
+  background-image: url(img/class.jpg);
+  margin-left: 15px;
+}
+
+.water {
+  background-image: url(img/water.jpg);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Testimonials ----------------- */
+
+.testimonial {
+  height: 400px;
+  /* background-color: #b0a8b9; */
+}
+
+.testimonial h2 {
+  margin-left: 15px;
+  color: #28cf78;
+  font-family: "Faustina", serif;
+}
+
+.grid {
+  display: flex;
+  width: 100%;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  margin: 15px;
+}
+
+.one p {
+  margin-left: 15px;
+  width: 22%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.two {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin: 15px;
+}
+
+.two p {
+  width: 30%;
+  margin-left: 15px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+/* footer --------------- */
+
+footer {
+  /* background-color: #9b9b9b; */
+  background-color: #f0f3f5;
+  border-top: 1px solid #bdbeb8;
+  height: 50px;
+}
+
+footer img {
+  margin: 5px 5px;
+}
+
+footer p {
+  float: left;
+  margin-left: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Media query ---------------- */
+
+@media (max-width: 1440px) {
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 750px;
+  }
+
+  .desktop p {
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    margin-left: 25px;
+  }
+
+  .header li {
+    padding-left: 1.7rem;
+    height: 50%;
+    justify-items: right;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+}
